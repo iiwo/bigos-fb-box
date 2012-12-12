@@ -32,7 +32,7 @@ module BigosFbBox
       end
     end
 
-    class ViewsGenerator < Rails::Generators::NamedBase
+    class ViewsGenerator < Rails::Generators::Base
       include ViewPathTemplates
       desc "Copies BigosFbBox views to your application."
 
