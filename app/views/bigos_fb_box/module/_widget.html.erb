@@ -1,1 +1,7 @@
-<h1>Module HTML</h1>
+<ul>
+  <% facebook_posts.each do |post| %>
+    <li>
+        <%= render :partial=>"bigos_fb_box/module/post", :locals=>{:post=>post} %>
+    </li>
+  <% end  %>
+</ul>

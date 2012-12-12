@@ -1,26 +1,26 @@
 require "bigos-fb-box/engine"
+require 'koala'
 
 module BigosFbBox
 
-  mattr_accessor :fb_key
-  @@fb_key = nil
+  mattr_accessor :access_token
+  @@access_token = nil
 
-  mattr_accessor :fb_secret
-  @@fb_secret=nil
+  mattr_accessor :page_name
+  @@page_name = nil
 
   module Controllers
     autoload :Helpers, 'bigos-fb-box/controllers/helpers'
   end
 
   def self.setup
-    yield self
     include_helpers
+    yield self
   end
 
-  # Include helpers in the given scope to AC and AV.
+  # Include helpers to AC and AV.
   def self.include_helpers
     ActiveSupport.on_load(:action_controller) do
-      include BigosFbBox::Controllers::Helpers
     end
 
     ActiveSupport.on_load(:action_view) do
