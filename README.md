@@ -15,7 +15,7 @@ Run the bundle command to install it.
 After you install BigosFbBox and add it to your Gemfile, you need to run the generator:
 
 ```console
-rails generate bigos-fb-box:install
+rails generate bigos_fb_box:install
 ```
 
 ## Configuration

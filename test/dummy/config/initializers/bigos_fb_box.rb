@@ -1,4 +1,4 @@
 BigosFbBox.setup do |config|
-  config.access_token = "127696474056200|PLGDG0QIE1GuUG-LjwU3kKh4-Mk"
-  config.page_name = "footlocker"
+  config.access_token = "YOUR_APP_ACCESS_TOKEN"
+  config.page_name = "PAGE_NAME or PAGE_ID"
 end
