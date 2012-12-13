@@ -8,7 +8,7 @@ GIT
 PATH
   remote: .
   specs:
-    bigos-fb-box (0.0.1)
+    bigos-fb-box (0.0.2)
       bigos
       koala
       rails (~> 3.2.9)

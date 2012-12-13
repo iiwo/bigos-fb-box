@@ -6,8 +6,8 @@ Widget showing facebook feed for given page
 BigosFbBox works with Rails 3.1 onwards. You can add it to your Gemfile with:
 
 ```ruby
-gem "bigos", :git=>"git@github.com:iiwo/bigos.git"
-gem "bigos-fb-box", :git=>"git@github.com:iiwo/bigos-fb-box.git"
+gem "bigos", :git=>"git://github.com/iiwo/bigos.git"
+gem "bigos-fb-box", :git=>"git://github.com/iiwo/bigos-fb-box.git"
 ```
 
 Run the bundle command to install it.
