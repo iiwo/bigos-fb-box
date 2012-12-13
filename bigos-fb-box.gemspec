@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = BigosFbBox::VERSION
   s.authors     = ["Iwo Dziechciarow"]
   s.email       = ["iiwo@o2.pl"]
-  s.homepage    = "tremor.pl"
+  s.homepage    = "http://tremor.pl"
   s.summary     = "Facebook box for bigos cms system"
   s.description = "Facebook box module"
 
